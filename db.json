@@ -1,0 +1,23 @@
+{
+  "posts": [
+    {
+      "title": "dfgbhjk",
+      "content": "sdfghnjkl,",
+      "imageUrl": "dfhujik",
+      "userId": 2,
+      "id": 2
+    }
+  ],
+  "users": [
+    {
+      "email": "ahmedelads789@gmail.com",
+      "password": "$2a$10$GuyqWN8xU192sb5gWih2mOeolATx.JQndoreGthV/Ge0UQ7GRWVci",
+      "id": 1
+    },
+    {
+      "email": "ahmedelads@gmail.com",
+      "password": "$2a$10$PBhZ3n.2IeS2GB8ta5DxUeeiWbOyScp2wWOXrvIDLHSN24Oph8bki",
+      "id": 2
+    }
+  ]
+}
