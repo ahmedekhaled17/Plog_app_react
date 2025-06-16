@@ -1,6 +1,5 @@
 import { Link as RouterLink, useNavigate } from 'react-router-dom';
 import { useAuth } from '../authContext';
-
 import AppBar from '@mui/material/AppBar';
 import Toolbar from '@mui/material/Toolbar';
 import Button from '@mui/material/Button';
@@ -22,7 +21,7 @@ const Navbar = () => {
         <Typography
           variant="h6"
           component={RouterLink}
-          to="/home"
+          to={user ? "/home" : "/login"}
           sx={{ flexGrow: 1, color: 'inherit', textDecoration: 'none' }}
         >
           MyBlog
